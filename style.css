@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body {
+    background: lavender;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    background: rgb(197, 197, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background: rgb(130, 130, 148);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img, ul {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    height: 75px;
+    width: 125px;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nombre {
+    font-size: 14px;
+    height: 19px;
+    width: 19px;
+    padding: 2px;
+    background: orange;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#product {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 10em;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+.produit {
+    padding: 4px;
+}
+
+footer {
+    width: 100%;
+    background: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
